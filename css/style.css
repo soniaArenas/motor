@@ -1,0 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+body{
+	background-image: url('../img/back.jpg');
+	margin: auto;
+	text-align: center;
+}
+.btn-outline-success{
+	color: #575757;
+	border-color: #575757;
+}
+.btn-outline-success:hover{
+	color: #fff;
+	background-color: #575757;
+	border-color: #575757;
+}
+.navbar{
+	padding: 0px;
+}
+#register-div, #login-div{
+	display: none;
+}
+#login-div{
+	border: 1px solid #980D13FF;
+	position: absolute;
+	top: 50%;
+	z-index: 999;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Permanent Marker', cursive;
+
+}
+.error{
+	border: 1px solid red;
+}
+/*.error-msg{
+	display: none;
+}*/
